@@ -18,6 +18,7 @@ def levenshtein(first, second):
     if len(second) == 0:
         levres = len(first)
 
+    print 'hello world~'
     # too short
     # if len(second) == 1 and (second not in first):
     #     return 0.0
